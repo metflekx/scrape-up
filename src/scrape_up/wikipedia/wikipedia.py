@@ -15,7 +15,7 @@ class Wiki:
     | -----------------  | ---------------------------------------------------------------------------------|
     | `.scrape(url)`     | Returns the Scraped Data from Wikipedia                                          |
     | `.get_featured()`  | Returns the featured article for the day from Wikipedia                          |
-    | `.__scrape()` | private method to scrape the data from wikipedia, Returns a BeautifulSoup object |
+    | `.__scrape()`      | private method to scrape the data from wikipedia, Returns a BeautifulSoup object |
     | `.define()`        | Returns the definition of the query from Wikipedia as string                     |
 
     """
